@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  font-family: "Pacifico", cursive;
+}
+h1 {
+  
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 18px;
+}
+/* .logInContainer {
+  position: relative;
+  height: 100vh;
+  font-size: 1.1rem;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+} */
+
+/* .wholepage {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #9ce9ec;
+  box-shadow: 6px 6px 8px #bebebe, -6px -6px 8px #eeeeee;
+} */
+
+/* .userImg {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  top: 7px;
+  padding: 6px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #9ce9ec, #9ce9ec);
+  box-shadow: 6px 6px 8px #a7f9ff, -6px -6px 8px #a7f9ff;
+} */
+
+/* .iconsMain {
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  background: #f2f2f2;
+  box-shadow: inset 6px 6px 8px #d7d7d7, inset -6px -6px 8px #ffffff;
+  width: 95%;
+  align-items: center;
+  justify-content: center;
+  margin: .5rem;
+} */
+
+/* .logIcons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+} */
+/* .icon-container {
+  justify-content: space-between;
+  cursor: pointer;
+} */
+
+/* .fab{
+padding: 8px 8px;
+height: 45%;
+width: 45%;
+} */
+
+.icon-container:hover:nth-child(1){
+color: rgb(231, 213, 49);
+
+}
+.icon-container:hover:nth-child(2){
+color: rgb(255, 101, 186);
+
+}
+.icon-container:hover:nth-child(3){
+color: rgb(5, 230, 106);
+
+}
+.icon-container:hover:nth-child(4){
+color: rgb(4, 170, 199);
+}
+.icon-container:active{
+  border-radius: 10px;
+background: #9ce9ec;
+box-shadow: inset 14px -14px 27px #9ce9ec,
+            inset -14px 14px 27px #9ce9ec;
+}
+
+
+.form_all {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 8px;
+}
+.input-field {
+  margin: 8px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset 6px 6px 8px #d6d4d4, inset -6px -6px 8px #eeeeee;
+}
+
+.btn-group {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+
+  /* width: 130px;
+    height: 40px; */
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  bottom: 5px;
+  top: 5px;
+}
+
+.btn1 {
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 50%;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255, 27, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 27, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+}
+.btn1:hover {
+  color: #f0094a;
+  background: transparent;
+  box-shadow: none;
+}
+.btn1:before,
+.btn1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #f0094a;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn1:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn1:hover:before,
+.btn1:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.btn2 {
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 50%;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255, 27, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 27, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+}
+.btn2:hover {
+  color: #f0094a;
+  background: transparent;
+  box-shadow: none;
+}
+.btn2:before,
+.btn2:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #f0094a;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn2:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn2:hover:before,
+.btn2:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
